@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aa00">
+
+    <TextView
+        android:id="@+id/getFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:text="Get Food"
+        android:textSize="30dp"
+        android:textColor="#ffff00"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:onClick="goToPhoneScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textSize="20dp"
+        android:layout_marginBottom="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/getFood"
+        android:layout_toEndOf="@+id/getFood" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:onClick="goToNextOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/enterButton"
+        android:layout_toLeftOf="@+id/getFood"
+        android:layout_toStartOf="@+id/getFood"
+        android:text="Next"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getFood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/foodOption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup"
+            android:layout_centerHorizontal="true"
+            android:text="RadioButton"
+            android:textColor="#ffff00" />
+
+        <RadioButton
+            android:id="@+id/foodOption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup"
+            android:layout_centerHorizontal="true"
+            android:text="RadioButton"
+            android:textColor="#ffff00"/>
+
+        <RadioButton
+            android:id="@+id/foodOption3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup"
+            android:layout_centerHorizontal="true"
+            android:text="RadioButton"
+            android:textColor="#ffff00"/>
+
+    </RadioGroup>
+
+
+</RelativeLayout>

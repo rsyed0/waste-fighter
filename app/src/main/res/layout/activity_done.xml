@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00aa00"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/thankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Thanks for donating!"
+        android:textSize="20dp"
+        android:textColor="#ffff00"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/instructions"
+        android:layout_alignStart="@+id/instructions" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thankYou"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="You'll get a call from the
+person who wants your food
+soon."
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="#ffff00" />
+
+    <Button
+        android:id="@+id/backToMenu"
+        android:onClick="goBackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="Back to menu"
+        android:textSize="20dp"
+        android:layout_below="@+id/instructions"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

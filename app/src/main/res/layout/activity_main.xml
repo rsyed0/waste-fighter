@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aa00"
+    tools:context="com.example.reeditsyed.wastefighter.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waste Fighter"
+        android:textSize="30dp"
+        android:textColor="#ffff00"
+        android:layout_marginTop="154dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/giveFood"
+        android:onClick="goToOfferScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:text="Offer Food"
+        android:textSize="20dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/getFood"
+        android:onClick="goToGetScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Get Food"
+        android:textSize="20dp"
+        android:layout_below="@+id/giveFood"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

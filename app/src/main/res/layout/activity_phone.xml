@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aa00">
+
+    <TextView
+        android:id="@+id/phoneField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:text="Phone #"
+        android:textSize="30dp"
+        android:textColor="#ffff00"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/contactTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        android:text="Call the following phone number:"
+        android:textColor="#ffff00"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/phoneField"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/thankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="Thanks for using the app!"
+        android:textColor="#ffff00"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/backToHome"
+        android:onClick="goBackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="Back to home"
+        android:textSize="20dp"
+        android:layout_below="@+id/thankYou"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

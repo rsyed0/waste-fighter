@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "66409116882",
+    "firebase_url": "https://wastefighter-dc849.firebaseio.com",
+    "project_id": "wastefighter-dc849",
+    "storage_bucket": "wastefighter-dc849.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66409116882:android:426ace265c65cbe0",
+        "android_client_info": {
+          "package_name": "com.example.reeditsyed.wastefighter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66409116882-khqibcpc3hlt556vdfr2ntqjis60o75a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reeditsyed.wastefighter",
+            "certificate_hash": "73e0a207d4d03537c57d7c277a73d2586e5b78df"
+          }
+        },
+        {
+          "client_id": "66409116882-5vhhimvb6vrta9oqqlps1pjg844vh8rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbz_aqEmeBLSsjvHsp7SRMZWzbrZZKtYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66409116882-5vhhimvb6vrta9oqqlps1pjg844vh8rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

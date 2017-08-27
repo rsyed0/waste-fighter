@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aa00">
+
+    <TextView
+        android:id="@+id/offerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offer Food"
+        android:textSize="30dp"
+        android:textColor="#ffff00"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name (optional)"
+        android:textColor="#ffff00"
+        android:layout_below="@+id/offerTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <EditText
+        android:id="@+id/pickUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pick-Up Address"
+        android:textColor="#ffff00"
+        android:layout_below="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name" />
+
+    <EditText
+        android:id="@+id/itemDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Item Description"
+        android:textColor="#ffff00"
+        android:layout_below="@+id/pickUp"
+        android:layout_alignLeft="@+id/pickUp"
+        android:layout_alignStart="@+id/pickUp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Phone Number"
+        android:textColor="#ffff00"
+        android:layout_below="@+id/itemDesc"
+        android:layout_alignLeft="@+id/itemDesc"
+        android:layout_alignStart="@+id/itemDesc" />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:onClick="finishGiving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Enter"
+        android:textSize="20dp"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
